@@ -1,0 +1,32 @@
+# Anton Ogonovskiy
+===
+# Contacts
+1. Phone: +375447644171
+2. Email: antonogonovskiy@gmail.com
+3. Discord: Anton (AntonOgonovskiy)#2467
+===
+# About me
+After I was advised to RSschool courses, I decided to try myself in this area. I got interested in programming, and the desire to gain new knowledge and new experience is growing every day.
+===
+# Skills
+1. HTML
+2. CSS
+3. Git
+===
+# Code example
+```
+```
+===
+# Experience
+I have no experience in this direction yet, but this CV will be the starting point.
+===
+# Education and courses
+1. Belarusian State Academy of Telecommunications
+2. Interactive courses
+	1. [HTML](https://ru.code-basics.com/languages/html)
+	2. [CSS](https://ru.code-basics.com/languages/css)
+	3. [JS](https://ru.code-basics.com/languages/javascript)
+3. [Online tutorial JS](https://learn.javascript.ru/)
+===
+# Language
+ English A2
