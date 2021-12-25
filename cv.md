@@ -15,6 +15,19 @@ After I was advised to RSschool courses, I decided to try myself in this area. I
 ===
 # Code example
 ```
+function finalGrade (exam, projects) {
+    let result;
+  if (exam > 90 || projects > 10) {
+     return result = 100;
+  } else if (exam > 75 && projects >= 5) {
+     return result = 90;
+  } else if (exam > 50 && projects >= 2) {
+    return result = 75;
+  } else {
+    return result = 0;
+  }
+  return 
+}
 ```
 ===
 # Experience
