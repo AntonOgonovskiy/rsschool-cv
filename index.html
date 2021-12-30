@@ -11,121 +11,110 @@
 </head>
 
 <body>
-	<header>
+	<header class="header">
 		<div>
 			<nav>
-				<a href="#contact">Contacts</a>
-				<a href="#about">About me</a>
-				<a href="#skill">Skills</a>
-				<a href="#code">Code example</a>
-				<a href="#experience">Experience</a>
-				<a href="#education">Education and courses</a>
-				<a href="#language">Language</a>
+				<ul>
+					<li><a href="#contact">Contacts</a></li>
+					<li><a href="#about">About me</a></li>
+					<li><a href="#skill">Skills</a></li>
+					<li><a href="#code">Code example</a></li>
+					<li><a href="#experience">Experience</a></li>
+					<li><a href="#education">Education and courses</a></li>
+					<li><a href="#language">Language</a></li>
+				</ul>
 			</nav>
 		</div>
 	</header>
 
-	<main>
+	<main class="main">
 		<div>
-			<aside>
-				<img src="assets\img\photo.jpg" alt="photo">
-				<div>
-					<h1>
-						Anton Ogonovskiy
-					</h1>
-				</div>
-				<div>
-					<h2>Contacts</h2>
+			<div>
+				<aside>
+					<img src="assets\img\photo.jpg" alt="photo">
+					<div>
+						<h1>
+							Anton Ogonovskiy
+						</h1>
+					</div>
+					<div>
+						<h2>Contacts</h2>
+						<ul>
+							<li>Phone:<a href="tel:+375447644171">+375447644171</a></li>
+							<li>Email:<a href="mailto: antonogonovskiy@gmail.com">antonogonovskiy@gmail.com</a></li>
+							<li>GitHub:<a href="https://github.com/AntonOgonovskiy">Anton Ogonovskiy</a></li>
+						</ul>
+					</div>
+				</aside>
+			</div>
+			<div>
+				<section>
+					<h2>About me</h2>
+					<p>
+						After I was advised to RSschool courses, I decided to try myself in this area. I got interested
+						in
+						programming, and the desire to gain new knowledge and new experience is growing every day.
+					</p>
+				</section>
+
+				<section>
+					<h2>Skills</h2>
 					<ul>
-						<li>Phone:
-							<a href="tel:+375447644171">+375447644171</a>
-						</li>
-						<li>Email:
-							<a href="mailto: antonogonovskiy@gmail.com">antonogonovskiy@gmail.com</a>
-						</li>
-						<li>GitHub:
-							<a href="https://github.com/AntonOgonovskiy">Anton Ogonovskiy</a>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>GIT</li>
+						<li>JS</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Code example</h2>
+					<pre>
+						function finalGrade (exam, projects) {
+							let result;
+							if (exam > 90 || projects > 10) {
+								return result = 100;
+							} else if (exam > 75 && projects >= 5) {
+								return result = 90;
+							} else if (exam > 50 && projects >= 2) {
+								return result = 75;
+							} else {
+								return result = 0;
+							}
+							return
+						}
+					</pre>
+				</section>
+
+				<section>
+					<h2>Experience</h2>
+					<p>I have no experience in this direction yet, but this CV will be the starting point.
+					</p>
+				</section>
+
+				<section>
+					<h2>Education & courses</h2>
+					<ul>
+						<li><a href="http://bsac.by/">Belarusian State Academy of Telecommunications</a></li>
+						<li><a href="https://learn.javascript.ru/">Modern JavaScript Tutorial</a></li>
+						<li>Interactive courses
+							<ul>
+								<li><a href="https://ru.code-basics.com/languages/html">HTML</a></li>
+								<li><a href="https://ru.code-basics.com/languages/css">CSS</a></li>
+								<li><a href="https://ru.code-basics.com/languages/javascript">JS</a></li>
+							</ul>
 						</li>
 					</ul>
-				</div>
-			</aside>
+				</section>
 
-			<section>
-				<h2>About me</h2>
-				<p>
-					After I was advised to RSschool courses, I decided to try myself in this area. I got interested in
-					programming, and the desire to gain new knowledge and new experience is growing every day.
-				</p>
-			</section>
-
-			<section>
-				<h2>Skills</h2>
-				<ul>
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>GIT</li>
-					<li>JS</li>
-				</ul>
-			</section>
-
-			<section>
-				<h2>Code example</h2>
-				<pre>
-					function finalGrade (exam, projects) {
-					let result;
-					if (exam > 90 || projects > 10) {
-					return result = 100;
-					} else if (exam > 75 && projects >= 5) {
-					return result = 90;
-					} else if (exam > 50 && projects >= 2) {
-					return result = 75;
-					} else {
-					return result = 0;
-					}
-					return
-					}
-				</pre>
-			</section>
-
-			<section>
-				<h2>Experience</h2>
-				<p>I have no experience in this direction yet, but this CV will be the starting point.
-				</p>
-			</section>
-
-			<section>
-				<h2>Education & courses</h2>
-				<ol>
-					<li>
-						<a href="http://bsac.by/">Belarusian State Academy of Telecommunications</a>
-					</li>
-					<li>
-						<a href="https://learn.javascript.ru/">Modern JavaScript Tutorial</a>
-					</li>
-					<li>Interactive courses
-						<ul>
-							<li>
-								<a href="https://ru.code-basics.com/languages/html">HTML</a>
-							</li>
-							<li>
-								<a href="https://ru.code-basics.com/languages/css">CSS</a>
-							</li>
-							<li>
-								<a href="https://ru.code-basics.com/languages/javascript">JS</a>
-							</li>
-						</ul>
-					</li>
-
-				</ol>
-			</section>
-
-			<section>
-				<h2>Language</h2>
-				<span>English A2</span>
-			</section>
+				<section>
+					<h2>Language</h2>
+					<p>English A2</p>
+				</section>
+			</div>
 		</div>
 	</main>
-	<footer>
+	<footer class="footer">
 		<div>
 			<div>
 				© 2022

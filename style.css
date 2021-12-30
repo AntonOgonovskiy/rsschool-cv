@@ -5,6 +5,13 @@
 * {
     box-sizing: border-box;
   }
-.body {
+  html {
+	scroll-behavior: smooth; 
+  }
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 100vh;
 	font-family: 'Roboto Condensed', sans-serif;
   }
