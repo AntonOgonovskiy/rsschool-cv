@@ -9,9 +9,38 @@
 	scroll-behavior: smooth; 
   }
 body {
+	
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	min-height: 100vh;
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
 	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 18px;
+  }
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .header {
+	  background-color: bisque;
+	  
+  }
+  .nav {
+	  display: flex;
+	  flex-direction: row;
+	  justify-content: flex-end;
+	  align-items: center;
+	  list-style: none;
+  }
+  .nav-list {
+	  padding: 0 15px;
+	  line-height: 50px;
+	  text-decoration: none;
+	  color:black;
+	  transition: 5s;
+  }
+  .nav-list:hover {
+	  text-decoration: underline;
   }
