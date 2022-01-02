@@ -86,7 +86,7 @@ body {
   }
   .code-example {
 	  font-size: 14px;
-	  color: ;
+	  
   }
   .contact-list {
 	  list-style: none;
@@ -100,4 +100,29 @@ body {
   }
   .contact-link:hover {
 	text-decoration: underline;
+  }
+  .footer {	  
+	  background-color: black;
+  }
+  .footer-style {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1440px;
+    margin: 0 auto;
+
+	color:blanchedalmond;
+  }
+  .git-link {
+	line-height: 60px;
+	text-decoration: none;
+	color: blanchedalmond;
+  }
+  .git-link:hover {
+	  text-decoration: underline;
+  }
+
+  .rss {
+	width: 121px;
   }
