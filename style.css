@@ -1,3 +1,151 @@
-.body {
-	font-size: 24px;
+@font-face {
+	font-family: RobotoCondensed;
+	 src: url("assets\fonts\RobotoCondensed-Regular.ttf");
+   }
+* {
+    box-sizing: border-box;
+  }
+  html {
+	scroll-behavior: smooth; 
+  }
+body {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 18px;
+	line-height: 30px;
+  }
+  h1 {
+	  font-size: 30px;
+  }
+  h2 {
+	  font-size: 25px;
+	  text-align: center;
+  }
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .header {
+	  background-color: black;
+	 
+	  
+  }
+  .nav {
+	  display: flex;
+	  flex-direction: row;
+	  flex-wrap: wrap;
+	  justify-content: flex-end;
+	  align-items: center;
+	  list-style: none;
+  }
+  .nav-list {
+	  padding: 0 15px;
+	  line-height: 50px;
+	  text-decoration: none;
+	  color:blanchedalmond;
+	  
+  }
+  .nav-list:hover {
+	  text-decoration: underline;
+	
+  }
+  .main {
+	max-width: 1440px;
+	margin: 0 auto;
+	  display: flex;
+	  flex-direction: row;
+  }
+.aside {
+	background-color: grey;
 }
+  .aside-main {
+	  
+	  padding: 0px;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: flex-start;
+	  align-items: center;
+
+  }
+  .avatar {
+	  width: 300px;
+	  height: auto;
+	  margin: 50px;
+  }
+  .section-main {
+	  display: flex;
+	  flex-wrap: wrap;
+	  justify-content: space-evenly;	
+	  align-items: baseline;
+  }
+  section {
+	 flex-basis: 30vw;
+	  
+  }
+  .code-example {
+	  font-size: 14px;
+	  
+  }
+  .contact-list {
+	  list-style: none;
+  }
+  .contact-link {
+	padding: 0 20px;
+	line-height: 50px;	  
+	text-decoration: none;
+	color:black ;
+  }
+  .contact-link:hover {
+	text-decoration: underline;
+  }
+  .education-list {
+	  list-style: none 
+  }
+  .education-link {
+	padding: 0 20px;
+	line-height: 30px;
+	  text-decoration: none;
+	  color: black;
+  }
+  .education-link:hover {
+	  text-decoration: underline;
+  }
+  .skill-list {
+	  list-style: none;
+  }
+  .skill-name {
+	padding: 0 20px;
+	line-height: 30px;  
+  }
+
+  .footer {	  
+	  background-color: black;
+  }
+  .footer-style {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1440px;
+    margin: 0 auto;
+
+	color:blanchedalmond;
+  }
+  .git-link {
+	line-height: 60px;
+	text-decoration: none;
+	color: blanchedalmond;
+  }
+  .git-link:hover {
+	  text-decoration: underline;
+  }
+
+  .rss {
+	width: 121px;
+  }
