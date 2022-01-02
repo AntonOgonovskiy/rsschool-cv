@@ -29,7 +29,7 @@
 
 	<main>
 		<div class="main">
-			<div>
+			<div class="aside">
 				<aside class="aside-main">
 					<img src="assets/img/photo.jpg" alt="photo" class="avatar">
 					<div>
@@ -61,35 +61,34 @@
 
 				<section>
 					<h2 id="skill">Skills</h2>
-					<ul>
-						<li>HTML</li>
-						<li>CSS</li>
-						<li>GIT</li>
-						<li>JS</li>
+					<ul class="skill-list">
+						<li class="skill-name">HTML</li>
+						<li class="skill-name">CSS</li>
+						<li class="skill-name">GIT</li>
+						<li class="skill-name">JS</li>
 					</ul>
 				</section>
 
 				<section>
 					<h2 id="code">Code example</h2>
+					<code class="code-example"></code>
 					<pre>
-					<code class="code-example">
  function finalGrade (exam, projects)  {
-	 let result;
-	 if (exam > 90 || projects > 10) {
-		 return result = 100;
-	 } else if (exam > 75 && projects >= 5) {
-		 return result = 90;
-	 } else if (exam > 50 && projects >= 2) {
-		 return result = 75;
-	 } else {
-		 return result = 0;
-	 }
-	 return
+	let result;
+	if (exam > 90 || projects > 10) {
+		return result = 100;
+	} else if (exam > 75 && projects >= 5) {
+		return result = 90;
+	} else if (exam > 50 && projects >= 2) {
+		return result = 75;
+	} else {
+		return result = 0;
+	}
+	return
  }
-					</code>
 					</pre>
+					</code>
 				</section>
-
 				<section>
 					<h2 id="experience">Experience</h2>
 					<p>I have no experience in this direction yet, but this CV will be the starting point.
@@ -98,15 +97,19 @@
 
 				<section>
 					<h2 id="education">Education & courses</h2>
-					<ul>
-						<li><a href="http://bsac.by/">Belarusian State Academy of Telecommunications</a></li>
-						<li><a href="https://learn.javascript.ru/">Modern JavaScript Tutorial</a></li>
-						<li>Interactive courses
-							<ul>
-								<li><a href="https://ru.code-basics.com/languages/html">HTML</a></li>
-								<li><a href="https://ru.code-basics.com/languages/css">CSS</a></li>
-								<li><a href="https://ru.code-basics.com/languages/javascript">JS</a></li>
-							</ul>
+					<ul class="education-list">
+						<li><a href="http://bsac.by/" class="education-link"
+								title="Belarusian State Academy of Telecommunications" target="_blank">BSAT</a></li>
+						<li><a href="https://learn.javascript.ru/" class="education-link" title="Online tutorial"
+								target="_blank">Modern
+								JavaScript
+								Tutorial</a></li>
+						<li><a href="https://ru.code-basics.com/languages/html" class="education-link"
+								title="Interactive course" target="_blank">HTML</a></li>
+						<li><a href="https://ru.code-basics.com/languages/css" class="education-link"
+								title="Interactive course" target="_blank">CSS</a></li>
+						<li><a href="https://ru.code-basics.com/languages/javascript" class="education-link"
+								title="Interactive course" target="_blank">JS</a>
 						</li>
 					</ul>
 				</section>
