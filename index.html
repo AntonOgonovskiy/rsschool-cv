@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>My CV</title>
-	<link rel="icon" href="assets\img\ico.ico">
+	<link rel="icon" href="assets/img/ico.ico">
 	<link rel="stylesheet" href="style.css">
 </head>
 
@@ -27,11 +27,11 @@
 		</div>
 	</header>
 
-	<main class="main">
-		<div>
+	<main>
+		<div class="main">
 			<div>
-				<aside>
-					<img src="assets\img\photo.jpg" alt="photo">
+				<aside class="aside-main">
+					<img src="assets/img/photo.jpg" alt="photo" class="avatar">
 					<div>
 						<h1>
 							Anton Ogonovskiy
@@ -39,22 +39,24 @@
 					</div>
 					<div>
 						<h2>Contacts</h2>
-						<ul>
-							<li>Phone:<a href="tel:+375447644171">+375447644171</a></li>
-							<li>Email:<a href="mailto: antonogonovskiy@gmail.com">antonogonovskiy@gmail.com</a></li>
-							<li>GitHub:<a href="https://github.com/AntonOgonovskiy">Anton Ogonovskiy</a></li>
+						<ul class="contact-list">
+							<li>Phone:<a href="tel:+375447644171" class="contact-link"> +375447644171</a></li>
+							<li>Email:<a href="mailto:antonogonovskiy@gmail.com" class="contact-link">
+									antonogonovskiy@gmail.com</a></li>
+							<li>GitHub:<a href="https://github.com/AntonOgonovskiy"
+									class="contact-link">AntonOgonovskiy</a></li>
 						</ul>
 					</div>
 				</aside>
 			</div>
-			<div>
+			<div class="section-main">
 				<section>
 					<h2>About me</h2>
-					<p>
+					<span>
 						After I was advised to RSschool courses, I decided to try myself in this area. I got interested
 						in
 						programming, and the desire to gain new knowledge and new experience is growing every day.
-					</p>
+					</span>
 				</section>
 
 				<section>
@@ -70,19 +72,21 @@
 				<section>
 					<h2>Code example</h2>
 					<pre>
-						function finalGrade (exam, projects) {
-							let result;
-							if (exam > 90 || projects > 10) {
-								return result = 100;
-							} else if (exam > 75 && projects >= 5) {
-								return result = 90;
-							} else if (exam > 50 && projects >= 2) {
-								return result = 75;
-							} else {
-								return result = 0;
-							}
-							return
-						}
+					<code class="code-example">
+ function finalGrade (exam, projects)  {
+	 let result;
+	 if (exam > 90 || projects > 10) {
+		 return result = 100;
+	 } else if (exam > 75 && projects >= 5) {
+		 return result = 90;
+	 } else if (exam > 50 && projects >= 2) {
+		 return result = 75;
+	 } else {
+		 return result = 0;
+	 }
+	 return
+ }
+					</code>
 					</pre>
 				</section>
 
