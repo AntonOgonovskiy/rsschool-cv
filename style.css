@@ -149,3 +149,10 @@ body {
   .rss {
 	width: 121px;
   }
+  .cv-link {
+	text-decoration: none;
+	color:red;  
+  }
+  .cv-link:hover {
+	  text-decoration: underline;
+  }
